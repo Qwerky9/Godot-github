@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bu2k7ymj38feu"]
+
+[ext_resource type="PackedScene" uid="uid://dtr8sxlpv3u2g" path="res://Levels/node_2d.tscn" id="1_u8ne6"]
+[ext_resource type="Texture2D" uid="uid://cisytrhv4gdk" path="res://Arts/Basic Charakter Actions.png" id="2_fbh31"]
+
+[node name="Main" type="Node"]
+
+[node name="Node2D" parent="." instance=ExtResource("1_u8ne6")]
+position = Vector2(154, 137)
+
+[node name="BasicCharakterActions" type="Sprite2D" parent="."]
+position = Vector2(138, 229)
+texture = ExtResource("2_fbh31")
